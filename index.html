@@ -49,6 +49,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 500; background: rgba
 .hero-credential { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 28px; }
 .hero-credential-text { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
 .hero-credential-text strong { display: block; color: rgba(255,255,255,0.82); font-weight: 500; font-size: 0.88rem; margin-bottom: 3px; }
+.hero-credential-text light { display: block; color: rgba(255, 255, 255, 0.508); font-weight: 500; font-size: 0.88rem; margin-bottom: 3px; }
 .hero-right { background: var(--paper2); padding: 80px 64px; display: flex; flex-direction: column; justify-content: center; }
 .hero-intro-label { font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 20px; }
 .hero-intro-text { font-family: var(--serif); font-size: clamp(1.3rem, 2vw, 1.65rem); font-style: italic; color: var(--ink); line-height: 1.55; margin-bottom: 28px; }
@@ -194,7 +195,7 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
         <div class="hero-credential-text">
           <strong>Matthew Dutton · MSc Cybercrime</strong>
           University of Portsmouth · Institute of Criminal Justice Studies · 2023
-        </div>
+          </div>
       </div>
     </div>
   </div>
@@ -637,11 +638,19 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
 </div>
 
 <footer>
-  <div class="footer-brand">Matthew Dutton</div>
+
+<!--  <div class="footer-brand">Matthew Dutton</div>
   <div class="footer-detail">
     MSc Cybercrime · University of Portsmouth<br>
     Institute of Criminal Justice Studies<br>
   </div>
+-->
+
+  <div class="hero-credential-text">
+    <strong><br><p>Disclaimer:</p></strong>
+    <p>The views expressed herein are those of the author alone and are based on independent academic research conducted within a specific analytical context. They do not represent, reflect, or inform the positions of any institution, organisation, employer, or broader professional or policy community. These views should be read strictly within the context in which they were written and should not be construed as indicative of any wider perspective held by the author.</p>
+  </div>
+
 </footer>
 
 </body>
