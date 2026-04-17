@@ -39,12 +39,12 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 500; background: rgba
 
 /* HERO */
 .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; padding-top: 56px; }
-.hero-left { background: var(--teal); padding: 80px 64px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; }
+.hero-left { background: var(--ink); padding: 80px 64px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; }
 .hero-left::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 24px, rgba(255,255,255,0.025) 24px, rgba(255,255,255,0.025) 25px); }
 .hero-left-inner { position: relative; }
 .hero-eyebrow { font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
-.hero-eyebrow::before { content: ''; display: inline-block; width: 28px; height: 1px; background: rgba(255,255,255,0.3); }
-.hero-name { font-family: var(--serif); font-size: clamp(3rem, 5vw, 5.5rem); line-height: 1; color: #fff; margin-bottom: 24px; }
+.hero-eyebrow::before { content: ''; display: inline-block; width: 28px; height: 8px; background: var(--rust); }
+.hero-name { font-family: var(--serif); text-transform: uppercase; font-size: clamp(3rem, 5vw, 5.5rem); line-height: 1; color: #fff; margin-bottom: 24px; }
 .hero-title { font-family: var(--sans); font-size: 1.05rem; font-weight: 300; color: rgba(255,255,255,0.6); line-height: 1.6; max-width: 360px; margin-bottom: 56px; }
 .hero-credential { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 28px; }
 .hero-credential-text { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
@@ -173,26 +173,26 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
 <body>
 
 <nav>
-  <a href="#" class="nav-brand">Matthew Dutton</a>
+  <a href="#" class="nav-brand">Cybercrime</a>
   <ul class="nav-links">
     <li><a href="#cybersecurity">Cybersecurity</a></li>
     <li><a href="#disinformation">Disinformation</a></li>
-    <li><a href="#immigration">Immigration</a></li>
+    <li><a href="#immigration">Immigration Crime</a></li>
     <li><a href="#theory">Crime Theory</a></li>
-    <li><a href="#governance">Governance</a></li>
-    <li><a href="#dissertation">Dissertation</a></li>
+    <li><a href="#governance">Cybercrime Governance</a></li>
+    <li><a href="#dissertation">Cybercrime as a Service</a></li>
   </ul>
 </nav>
 
 <header class="hero">
   <div class="hero-left">
     <div class="hero-left-inner">
-      <p class="hero-eyebrow">eMail: dutton.matt#cybercrime@gmail.com · LinkedIn: https://www.linkedin.com/in/mattdutton/  · GitHub: https://github.com/mmd93ee </p>
-      <h1 class="hero-name">Matthew<br>Dutton</h1>
-      <p class="hero-title">A research and analysis microsite using my 2023 Cybercrime MSc essays in cybersecurity, internet governance, organised cybercrime, and the regulation of digital harms.  Please feel free to use or build on the content, reference where appropriate, and get in touch if you'd like to discuss any of it.</p>
+      <p class="hero-eyebrow">eMail · dutton.matt#cybercrime@gmail.com <br> LinkedIn · https://www.linkedin.com/in/mattdutton/ <br> GitHub · https://github.com/mmd93ee </p>
+      <h1 class="hero-name">Cybercrime Analysis &<br>Research</h1>
+      <p class="hero-title">Research and analysis on cybersecurity, internet governance, organised cybercrime, and the regulation of digital harms.  Please feel free to use or build on the content, reference where appropriate, and get in touch if you'd like to discuss any of it.</p>
       <div class="hero-credential">
         <div class="hero-credential-text">
-          <strong>MSc Cybercrime</strong>
+          <strong>Matthew Dutton · MSc Cybercrime</strong>
           University of Portsmouth · Institute of Criminal Justice Studies · 2023
         </div>
       </div>
