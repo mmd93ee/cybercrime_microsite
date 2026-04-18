@@ -144,8 +144,8 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 500; background: rgba
 /* FOOTER */
 footer { background: var(--ink); padding: 56px 80px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
 .footer-brand { font-family: var(--mono); font-size: 1.0rem; color: var(--rust); }
-.footer-detail { font-family: var(--mono); font-size: 0.6rem; color: rgba(255,255,255,0.28); letter-spacing: 0.1em; line-height: 2; text-align: right; }
-
+.footer-detail { font-family: var(--mono); font-size: 0.6rem; color: var(--paper); letter-spacing: 0.1em; line-height: 2; text-align: left; }
+.footer-detail strong { font-family: var(--mono); font-size: 0.8rem; color: var(--paper2); letter-spacing: 0.1em; line-height: 2; text-align: left; }
 /* RESPONSIVE */
 @media(max-width: 1100px) {
   .topic, .topic:nth-child(even) { grid-template-columns: 1fr !important; }
@@ -188,9 +188,12 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
 <header class="hero">
   <div class="hero-left">
     <div class="hero-left-inner">
-      <p class="hero-eyebrow">eMail · dutton.matt#cybercrime@gmail.com <br> LinkedIn · https://www.linkedin.com/in/mattdutton/ <br> GitHub · https://github.com/mmd93ee </p>
+      <p class="hero-eyebrow"> 
+        eMail · dutton.matt#cybercrime@gmail.com<br>
+        LinkedIn · https://www.linkedin.com/in/mattdutton/<br> 
+        Github  ·  http://github.com/mmd93ee</p>
       <h1 class="hero-name">Cybercrime Analysis &<br>Research</h1>
-      <p class="hero-title">Research and analysis on cybersecurity, internet governance, organised cybercrime, and the regulation of digital harms.  Please feel free to use or build on the content, reference where appropriate, and get in touch if you'd like to discuss any of it.</p>
+      <p class="hero-title">Research and analysis on cybersecurity, internet governance, organised cybercrime, and the regulation of digital harms.</p>
       <div class="hero-credential">
         <div class="hero-credential-text">
           <strong>Matthew Dutton · MSc Cybercrime</strong>
@@ -201,7 +204,7 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
   </div>
   <div class="hero-right">
     <p class="hero-intro-label">Research Focus</p>
-    <p class="hero-intro-text">The internet has not created new human impulses — but it has given them unprecedented reach, anonymity, and scale.</p>
+    <p class="hero-intro-text">The internet has not created new human impulses but it has given them unprecedented reach, anonymity, and scale.</p>
     <p class="hero-body">This portfolio brings together research into some of the most consequential questions in digital society: how criminals have industrialised their operations using legitimate business models, how states weaponise information against their own populations and rivals, how the law consistently fails to keep pace with technology, and what it would actually take to make cyberspace meaningfully safer.</p>
     <ul class="hero-nav-list">
       <li><a href="#cybersecurity">Is cybersecurity only a technical problem? <span>Module 1</span></a></li>
@@ -639,16 +642,25 @@ footer { background: var(--ink); padding: 56px 80px; display: flex; align-items:
 
 <footer>
 
-<!--  <div class="footer-brand">Matthew Dutton</div>
+<!-- 
+  <div class="footer-brand">Contact Me:</div>
+  
   <div class="footer-detail">
     MSc Cybercrime · University of Portsmouth<br>
     Institute of Criminal Justice Studies<br>
   </div>
--->
-
+-->  
+  
+  <div class="footer-detail">
+        <strong>Contact me:</strong><br>
+        eMail · <a href="mailto:dutton.matt#cybercrime@gmail.com">dutton.matt#cybercrime@gmail.com</a><br>
+        LinkedIn  · <a href="https://www.linkedin.com/in/mattdutton/" target="_blank">https://www.linkedin.com/in/mattdutton/</a><br> 
+        <!-- Github  ·  <a href="https://github.com/mmd93ee" target="_blank">http://github.com/mmd93ee</a></p>-->
+  
+  
+  </div>
   <div class="hero-credential-text">
-    <strong><br><p>Disclaimer:</p></strong>
-    <p>The views expressed herein are those of the author alone and are based on independent academic research conducted within a specific analytical context. They do not represent, reflect, or inform the positions of any institution, organisation, employer, or broader professional or policy community. These views should be read strictly within the context in which they were written and should not be construed as indicative of any wider perspective held by the author.</p>
+    <strong><p>The views expressed herein are those of the author alone and are based on independent academic research conducted within a specific analytical context. They do not represent, reflect, or inform the positions of any institution, organisation, employer, or broader professional or policy community. These views should be read strictly within the context in which they were written and should not be construed as indicative of any wider perspective held by the author.</p></strong>
   </div>
 
 </footer>
